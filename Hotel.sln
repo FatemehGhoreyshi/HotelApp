@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{E581664C-FAFB-46C8-B4FF-6D2921170AF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Test", "Domain.Test\Domain.Test.csproj", "{D91F3F11-45D9-472A-9F78-BF5A60A45DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documents", "_Documents", "{AA16A457-986D-4F1A-8E81-BD1D597493D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagram", "Diagram", "{06A8D1C8-C281-402B-AE26-39A7F861DC15}"
+	ProjectSection(SolutionItems) = preProject
+		..\Diagram.png = ..\Diagram.png
+		..\Diagram_in_Sqlite.PNG = ..\Diagram_in_Sqlite.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{4043D174-8C0F-4B35-8CD5-E5719988A7EB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Hotelprojekt .docx = ..\..\..\..\Downloads\Hotelprojekt .docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E581664C-FAFB-46C8-B4FF-6D2921170AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E581664C-FAFB-46C8-B4FF-6D2921170AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E581664C-FAFB-46C8-B4FF-6D2921170AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E581664C-FAFB-46C8-B4FF-6D2921170AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91F3F11-45D9-472A-9F78-BF5A60A45DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91F3F11-45D9-472A-9F78-BF5A60A45DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91F3F11-45D9-472A-9F78-BF5A60A45DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91F3F11-45D9-472A-9F78-BF5A60A45DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06A8D1C8-C281-402B-AE26-39A7F861DC15} = {AA16A457-986D-4F1A-8E81-BD1D597493D6}
+		{4043D174-8C0F-4B35-8CD5-E5719988A7EB} = {AA16A457-986D-4F1A-8E81-BD1D597493D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25D652EC-ECCE-4D1D-98EF-699D8EC7FC87}
+	EndGlobalSection
+EndGlobal
